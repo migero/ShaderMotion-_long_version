@@ -1,18 +1,18 @@
-import { mat4 } from "./lib/gl-matrix.js";
-import { GLContext } from "./lib/wgl-fast.js";
+import { mat4 } from "https://lox9973.com/ShaderMotion/lib/gl-matrix.js";
+import { GLContext } from "https://lox9973.com/ShaderMotion/lib/wgl-fast.js";
 
-import * as GLTF from "./lib/GLTF/index.js";
-import * as wGLTF from "./lib/wGLTF/index.js";
-import { CreateMeshPlayer } from "./lib/SM/MeshPlayer.js";
-import { AnimRecorder } from "./lib/SM/AnimRecorder.js";
-import { MotionDecoder } from "./lib/SM/MotionDecoder.js";
-import { MotionLayout } from "./lib/SM/MotionLayout.js";
-import { HumanPose } from "./lib/SM/HumanPoser.js";
+import * as GLTF from "https://lox9973.com/ShaderMotion/lib/GLTF/index.js";
+import * as wGLTF from "https://lox9973.com/ShaderMotion/lib/wGLTF/index.js";
+import { CreateMeshPlayer } from "https://lox9973.com/ShaderMotion/lib/SM/MeshPlayer.js";
+import { AnimRecorder } from "https://lox9973.com/ShaderMotion/lib/SM/AnimRecorder.js";
+import { MotionDecoder } from "https://lox9973.com/ShaderMotion/lib/SM/MotionDecoder.js";
+import { MotionLayout } from "https://lox9973.com/ShaderMotion/lib/SM/MotionLayout.js";
+import { HumanPose } from "https://lox9973.com/ShaderMotion/lib/SM/HumanPoser.js";
 
-import { createSMMContext } from "./script2/smm.js";
-import { OrbitControls } from "./script2/OrbitControls.js";
-import { FPSCounter, resizeCanvas, downloadFile } from "./script2/util.js";
-import { getCaptureClientRect, getDisplaySurface } from "./script2/ScreenCapture.js";
+import { createSMMContext } from "https://lox9973.com/ShaderMotion/script2/smm.js";
+import { OrbitControls } from "https://lox9973.com/ShaderMotion/script2/OrbitControls.js";
+import { FPSCounter, resizeCanvas, downloadFile } from "https://lox9973.com/ShaderMotion/script2/util.js";
+import { getCaptureClientRect, getDisplaySurface } from "https://lox9973.com/ShaderMotion/script2/ScreenCapture.js";
 
 let getCaptureRect;
 let motionDec;
